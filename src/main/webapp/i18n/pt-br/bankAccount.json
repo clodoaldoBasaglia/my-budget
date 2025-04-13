@@ -1,0 +1,29 @@
+{
+  "myBudgetApp": {
+    "bankAccount": {
+      "home": {
+        "title": "Bank Accounts",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Bank Account",
+        "createOrEditLabel": "Criar ou editar Bank Account",
+        "notFound": "Nenhum Bank Account encontrado"
+      },
+      "created": "Um novo Bank Account foi criado com o identificador { param }",
+      "updated": "Um Bank Account foi atualizado com o identificador { param }",
+      "deleted": "Um Bank Account foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Bank Account { id }?"
+      },
+      "detail": {
+        "title": "Bank Account"
+      },
+      "id": "ID",
+      "descriptionName": "Description Name",
+      "accountNumber": "Account Number",
+      "accountDigit": "Account Digit",
+      "agencyNumber": "Agency Number",
+      "agencyDigit": "Agency Digit",
+      "bank": "Bank"
+    }
+  }
+}

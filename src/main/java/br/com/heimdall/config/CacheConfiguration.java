@@ -50,6 +50,9 @@ public class CacheConfiguration {
             createCache(cm, br.com.heimdall.domain.User.class.getName());
             createCache(cm, br.com.heimdall.domain.Authority.class.getName());
             createCache(cm, br.com.heimdall.domain.User.class.getName() + ".authorities");
+            createCache(cm, br.com.heimdall.domain.BankAccount.class.getName());
+            createCache(cm, br.com.heimdall.domain.Bank.class.getName());
+            createCache(cm, br.com.heimdall.domain.Bank.class.getName() + ".bankAccounts");
             // jhipster-needle-ehcache-add-entry
         };
     }

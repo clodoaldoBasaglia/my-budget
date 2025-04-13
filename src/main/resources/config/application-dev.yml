@@ -32,15 +32,15 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/myBudget
+    url: jdbc:postgresql://192.168.0.43:5432/myBudget
     username: myBudget
-    password:
+    password: 9Mcq2yZPXJSJMmUUf65zCAbWYY5iQvvJh059Mhy05VOGSfNa9ua82NxvNhtHRRk1
     hikari:
       poolName: Hikari
       auto-commit: false
   liquibase:
     # Remove 'faker' if you do not want the sample data to be loaded automatically
-    contexts: dev, faker
+    contexts: dev
   mail:
     host: localhost
     port: 25
