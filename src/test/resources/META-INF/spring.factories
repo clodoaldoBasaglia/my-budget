@@ -1,3 +1,0 @@
-org.springframework.test.context.ContextCustomizerFactory = \
-    br.com.heimdall.config.SqlTestContainersSpringContextCustomizerFactory,br.\
-    com.heimdall.config.KafkaTestContainersSpringContextCustomizerFactory

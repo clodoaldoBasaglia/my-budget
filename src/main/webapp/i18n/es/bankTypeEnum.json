@@ -1,9 +1,0 @@
-{
-  "myBudgetApp": {
-    "BankTypeEnum": {
-      "null": "",
-      "DIGITAL": "DIGITAL",
-      "FISICO": "FISICO"
-    }
-  }
-}
