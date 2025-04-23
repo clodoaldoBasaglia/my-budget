@@ -103,7 +103,7 @@ spring:
         binder:
           replicationFactor: 1
           auto-create-topics: true
-          brokers: ${IP_BANCO}:9092
+          brokers: 192.168.0.43:9092
       bindings:
         binding-out-0:
           content-type: text/plain
